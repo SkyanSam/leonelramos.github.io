@@ -1,0 +1,36 @@
+.main-container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+ul > li {
+    float: left;
+    margin: auto;
+    margin-right: 40px;
+}
+
+.header {
+    margin: auto;
+    margin-top: 10%;
+}
+
+.navbar {
+    border-top: 1px solid rgba(224, 224, 224, 0.664);
+    border-bottom: 1px solid rgba(224, 224, 224, 0.664);
+}
+
+.navbar-list {
+    margin: 0;
+}
+.navbar-item {
+    margin: 70px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
