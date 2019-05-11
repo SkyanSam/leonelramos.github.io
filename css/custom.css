@@ -1,36 +1,99 @@
-.main-container {
+body 
+{
+    display: grid;
+    place-items: center;
+}
+
+.main-container
+{
     width: 80%;
     max-width: 800px;
     margin: auto;
 }
 
-ul {
+ul 
+{
     list-style: none;
     display: inline-block;
 }
 
-ul > li {
+ul > li 
+{
     float: left;
     margin: auto;
     margin-right: 40px;
 }
 
-.header {
+.header
+{
     margin: auto;
     margin-top: 10%;
 }
 
-.navbar {
+.navbar 
+{
     border-top: 1px solid rgba(224, 224, 224, 0.664);
     border-bottom: 1px solid rgba(224, 224, 224, 0.664);
+    margin-bottom: 20px;
 }
 
-.navbar-list {
+.navbar-list 
+{
     margin: 0;
 }
-.navbar-item {
+
+.navbar-item 
+{
     margin: 70px;
     margin-top: 20px;
     margin-bottom: 15px;
     margin-left: 0;
+}
+
+.scrolling-wrapper-flexbox 
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+    padding-bottom: 16px;
+    overflow-x: scroll;
+}
+
+.card 
+{
+    flex: 0 0 auto;
+    margin-right: 10px;
+    padding: 10px;
+    margin-left: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(224, 224, 224, 0.664);
+    min-width: 40%;
+    min-height: 200px;
+    max-width: 40%;
+    max-height: 200px;
+}
+
+::-webkit-scrollbar-track
+{
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+    width: 5px;
+    border-radius: 5px;
+    background-color: rgba(201, 201, 201, 0.76);
+}
+
+scrolling-wrapper-flexbox::-webkit-scrollbar 
+{
+    max-width: 10px;
 }

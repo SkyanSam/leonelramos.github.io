@@ -1,7 +1,11 @@
 <!-- 
     Author: Leonel Ramos
+    -------------- Credits --------------
     Libraries used: Skeleton CSS, Normalize CSS
     Navbar derived from: http://getskeleton.com
+    Horizontal scrolling containers dserived from: https://codepen.io/colinlord/pen/oZNoOO
+    Scroll bar dervied from: https://css-tricks.com/the-current-state-of-styling-scrollbars/
+    -------------------------------------
 -->
 <!DOCTYPE html>
     <html lang="en">
@@ -35,8 +39,8 @@
         <!-- Primary Page Layout
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div class="main-container">
-            <section class="header">
-                <h1>Hello world ... </h1>
+            <section class="header" id="about">
+                <h1><span>Hello.</span> <span>Hola.</span> </h1>
                 <p>
                     My name is Leonel Ramos, but you can call me Leo. I am a software/game developer interested in 
                     the future of automation and machine learning. When I am not coding I enjoy studying astronomy
@@ -73,9 +77,68 @@
                     </li>
                 </ul>
             </nav>
-            <div class="docs-section" id="about">
-                <h6 class="docs-header"></h6>
+            <div  class="docs-section scrolling-wrapper" id="blog">
+                <h4>The Jim Thorpe Blog</h4>
+                <p>
+                    This is my blog. I like to write about anything that interests me therefore I have added a filter 
+                    so you can filter out any topics that don't interest you. I made this blog mostly for myself, 
+                    it could prove useful on day to have my thoughts documented. Regardless of its purpose, if my blog 
+                    can help solve some of your problems by reading solutions to my own then I am content it has
+                    taken on another purpose.
+                </p>
+                <p>
+                    Oh and if you are wondering who Jim Thorpe is, wonder no further, for it is I. It is a stupid inside joke 
+                    between my girlfriend and I. She got me a coffee mug that reads "Jim Thorpe" from the town Jim Thorpe.
+                    I joked that she had forgotten my name while buying me the souvenir. That she was faced with two mugs to choose from, 
+                    one with my name on it and one with "Jim Thorpe". After some internal-struggle and deliberation she came to the 
+                    conclusion that my name was indeed Jim Thorpe and not Leonel Ramos and purchased the Jim Thorpe mug for me. So yea ... 
+                    I've been Jim Thrope ever since. 
+                </p>
+                <div class="scrolling-wrapper-flexbox">
+                    <div class="card topic-programming">
+                        <h5>Project: Making my own website</h5>
+                        <p>
+                            coming soon
+                        </p>
+                    </div>
+                    <div class="card topic-programming">
+                        <h5>Fun hack: Bub.ly</h5>
+                        <p>
+                            coming soon
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h5>Project: Quiqly</h5>
+                        <p>
+                            coming sooon
+                        </p>
+                    </div>
+                </div>
             </div>
+            <div  class="docs-section scrolling-wrapper" id="projects">
+                    <h4>My Projects</h4>
+                    <p>
+                        Here you will find links to all my projects, minus my website because that would be redundant ...
+                        I love open source and you will find most of my hacks on GitHub with a few exceptions. You will not find any 
+                        of my school project source code online (due to academic integrity rules) and you will not find 
+                        the source code to any commerical games I develope in the future. I do not plan on developing any commerical
+                        software other than games. All software I create will be free and open source. 
+                    </p>
+                    <div class="scrolling-wrapper-flexbox">
+                        <div class="card topic-programming">
+                            <h5>Fun hack: Bub.ly</h5>
+                            <p>
+                                coming soon
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h5>Project: Quiqly</h5>
+                            <p>
+                                coming sooon
+                            </p>
+                        </div>
+                    </div>
+                </div>
         </div>
         <!-- End Document
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
