@@ -24,6 +24,11 @@ ul > li
     margin-right: 40px;
 }
 
+.social-links 
+{
+    margin-bottom: 15px;
+}
+
 .header
 {
     margin: auto;
